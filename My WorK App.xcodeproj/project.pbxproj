@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8800BA628CB5F3D00D42D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8800BA528CB5F3D00D42D8F /* AppDelegate.swift */; };
+		E8800BA828CB5F3D00D42D8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8800BA728CB5F3D00D42D8F /* SceneDelegate.swift */; };
+		E8800BAA28CB5F3D00D42D8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8800BA928CB5F3D00D42D8F /* ViewController.swift */; };
+		E8800BAD28CB5F3D00D42D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8800BAB28CB5F3D00D42D8F /* Main.storyboard */; };
+		E8800BAF28CB5F4000D42D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8800BAE28CB5F4000D42D8F /* Assets.xcassets */; };
+		E8800BB228CB5F4000D42D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8800BB028CB5F4000D42D8F /* LaunchScreen.storyboard */; };
+		E8800BBD28CB5F4000D42D8F /* My_WorK_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8800BBC28CB5F4000D42D8F /* My_WorK_AppTests.swift */; };
+		E8800BC728CB5F4100D42D8F /* My_WorK_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8800BC628CB5F4100D42D8F /* My_WorK_AppUITests.swift */; };
+		E8800BC928CB5F4100D42D8F /* My_WorK_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8800BC828CB5F4100D42D8F /* My_WorK_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8800BB928CB5F4000D42D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8800B9A28CB5F3D00D42D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8800BA128CB5F3D00D42D8F;
+			remoteInfo = "My WorK App";
+		};
+		E8800BC328CB5F4100D42D8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8800B9A28CB5F3D00D42D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8800BA128CB5F3D00D42D8F;
+			remoteInfo = "My WorK App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8800BA228CB5F3D00D42D8F /* My WorK App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My WorK App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8800BA528CB5F3D00D42D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8800BA728CB5F3D00D42D8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E8800BA928CB5F3D00D42D8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8800BAC28CB5F3D00D42D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8800BAE28CB5F4000D42D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8800BB128CB5F4000D42D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8800BB328CB5F4000D42D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8800BB828CB5F4000D42D8F /* My WorK AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My WorK AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8800BBC28CB5F4000D42D8F /* My_WorK_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_WorK_AppTests.swift; sourceTree = "<group>"; };
+		E8800BC228CB5F4000D42D8F /* My WorK AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My WorK AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8800BC628CB5F4100D42D8F /* My_WorK_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_WorK_AppUITests.swift; sourceTree = "<group>"; };
+		E8800BC828CB5F4100D42D8F /* My_WorK_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_WorK_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8800B9F28CB5F3D00D42D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8800BB528CB5F4000D42D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8800BBF28CB5F4000D42D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8800B9928CB5F3D00D42D8F = {
+			isa = PBXGroup;
+			children = (
+				E8800BA428CB5F3D00D42D8F /* My WorK App */,
+				E8800BBB28CB5F4000D42D8F /* My WorK AppTests */,
+				E8800BC528CB5F4100D42D8F /* My WorK AppUITests */,
+				E8800BA328CB5F3D00D42D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8800BA328CB5F3D00D42D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8800BA228CB5F3D00D42D8F /* My WorK App.app */,
+				E8800BB828CB5F4000D42D8F /* My WorK AppTests.xctest */,
+				E8800BC228CB5F4000D42D8F /* My WorK AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8800BA428CB5F3D00D42D8F /* My WorK App */ = {
+			isa = PBXGroup;
+			children = (
+				E8800BA528CB5F3D00D42D8F /* AppDelegate.swift */,
+				E8800BA728CB5F3D00D42D8F /* SceneDelegate.swift */,
+				E8800BA928CB5F3D00D42D8F /* ViewController.swift */,
+				E8800BAB28CB5F3D00D42D8F /* Main.storyboard */,
+				E8800BAE28CB5F4000D42D8F /* Assets.xcassets */,
+				E8800BB028CB5F4000D42D8F /* LaunchScreen.storyboard */,
+				E8800BB328CB5F4000D42D8F /* Info.plist */,
+			);
+			path = "My WorK App";
+			sourceTree = "<group>";
+		};
+		E8800BBB28CB5F4000D42D8F /* My WorK AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8800BBC28CB5F4000D42D8F /* My_WorK_AppTests.swift */,
+			);
+			path = "My WorK AppTests";
+			sourceTree = "<group>";
+		};
+		E8800BC528CB5F4100D42D8F /* My WorK AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8800BC628CB5F4100D42D8F /* My_WorK_AppUITests.swift */,
+				E8800BC828CB5F4100D42D8F /* My_WorK_AppUITestsLaunchTests.swift */,
+			);
+			path = "My WorK AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8800BA128CB5F3D00D42D8F /* My WorK App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8800BCC28CB5F4100D42D8F /* Build configuration list for PBXNativeTarget "My WorK App" */;
+			buildPhases = (
+				E8800B9E28CB5F3D00D42D8F /* Sources */,
+				E8800B9F28CB5F3D00D42D8F /* Frameworks */,
+				E8800BA028CB5F3D00D42D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My WorK App";
+			productName = "My WorK App";
+			productReference = E8800BA228CB5F3D00D42D8F /* My WorK App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8800BB728CB5F4000D42D8F /* My WorK AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8800BCF28CB5F4100D42D8F /* Build configuration list for PBXNativeTarget "My WorK AppTests" */;
+			buildPhases = (
+				E8800BB428CB5F4000D42D8F /* Sources */,
+				E8800BB528CB5F4000D42D8F /* Frameworks */,
+				E8800BB628CB5F4000D42D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8800BBA28CB5F4000D42D8F /* PBXTargetDependency */,
+			);
+			name = "My WorK AppTests";
+			productName = "My WorK AppTests";
+			productReference = E8800BB828CB5F4000D42D8F /* My WorK AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8800BC128CB5F4000D42D8F /* My WorK AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8800BD228CB5F4100D42D8F /* Build configuration list for PBXNativeTarget "My WorK AppUITests" */;
+			buildPhases = (
+				E8800BBE28CB5F4000D42D8F /* Sources */,
+				E8800BBF28CB5F4000D42D8F /* Frameworks */,
+				E8800BC028CB5F4000D42D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8800BC428CB5F4100D42D8F /* PBXTargetDependency */,
+			);
+			name = "My WorK AppUITests";
+			productName = "My WorK AppUITests";
+			productReference = E8800BC228CB5F4000D42D8F /* My WorK AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8800B9A28CB5F3D00D42D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E8800BA128CB5F3D00D42D8F = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					E8800BB728CB5F4000D42D8F = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = E8800BA128CB5F3D00D42D8F;
+					};
+					E8800BC128CB5F4000D42D8F = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = E8800BA128CB5F3D00D42D8F;
+					};
+				};
+			};
+			buildConfigurationList = E8800B9D28CB5F3D00D42D8F /* Build configuration list for PBXProject "My WorK App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8800B9928CB5F3D00D42D8F;
+			productRefGroup = E8800BA328CB5F3D00D42D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8800BA128CB5F3D00D42D8F /* My WorK App */,
+				E8800BB728CB5F4000D42D8F /* My WorK AppTests */,
+				E8800BC128CB5F4000D42D8F /* My WorK AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8800BA028CB5F3D00D42D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8800BB228CB5F4000D42D8F /* LaunchScreen.storyboard in Resources */,
+				E8800BAF28CB5F4000D42D8F /* Assets.xcassets in Resources */,
+				E8800BAD28CB5F3D00D42D8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8800BB628CB5F4000D42D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8800BC028CB5F4000D42D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8800B9E28CB5F3D00D42D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8800BAA28CB5F3D00D42D8F /* ViewController.swift in Sources */,
+				E8800BA628CB5F3D00D42D8F /* AppDelegate.swift in Sources */,
+				E8800BA828CB5F3D00D42D8F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8800BB428CB5F4000D42D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8800BBD28CB5F4000D42D8F /* My_WorK_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8800BBE28CB5F4000D42D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8800BC728CB5F4100D42D8F /* My_WorK_AppUITests.swift in Sources */,
+				E8800BC928CB5F4100D42D8F /* My_WorK_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8800BBA28CB5F4000D42D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8800BA128CB5F3D00D42D8F /* My WorK App */;
+			targetProxy = E8800BB928CB5F4000D42D8F /* PBXContainerItemProxy */;
+		};
+		E8800BC428CB5F4100D42D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8800BA128CB5F3D00D42D8F /* My WorK App */;
+			targetProxy = E8800BC328CB5F4100D42D8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8800BAB28CB5F3D00D42D8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8800BAC28CB5F3D00D42D8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8800BB028CB5F4000D42D8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8800BB128CB5F4000D42D8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8800BCA28CB5F4100D42D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8800BCB28CB5F4100D42D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8800BCD28CB5F4100D42D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My WorK App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Navtar.My-WorK-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8800BCE28CB5F4100D42D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My WorK App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Navtar.My-WorK-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8800BD028CB5F4100D42D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Navtar.My-WorK-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My WorK App.app/My WorK App";
+			};
+			name = Debug;
+		};
+		E8800BD128CB5F4100D42D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Navtar.My-WorK-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My WorK App.app/My WorK App";
+			};
+			name = Release;
+		};
+		E8800BD328CB5F4100D42D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Navtar.My-WorK-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My WorK App";
+			};
+			name = Debug;
+		};
+		E8800BD428CB5F4100D42D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Navtar.My-WorK-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My WorK App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8800B9D28CB5F3D00D42D8F /* Build configuration list for PBXProject "My WorK App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8800BCA28CB5F4100D42D8F /* Debug */,
+				E8800BCB28CB5F4100D42D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8800BCC28CB5F4100D42D8F /* Build configuration list for PBXNativeTarget "My WorK App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8800BCD28CB5F4100D42D8F /* Debug */,
+				E8800BCE28CB5F4100D42D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8800BCF28CB5F4100D42D8F /* Build configuration list for PBXNativeTarget "My WorK AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8800BD028CB5F4100D42D8F /* Debug */,
+				E8800BD128CB5F4100D42D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8800BD228CB5F4100D42D8F /* Build configuration list for PBXNativeTarget "My WorK AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8800BD328CB5F4100D42D8F /* Debug */,
+				E8800BD428CB5F4100D42D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8800B9A28CB5F3D00D42D8F /* Project object */;
+}
