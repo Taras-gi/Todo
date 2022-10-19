@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         if textField.text != "" && sender.tag != 11 && sender.tag != 16 {
             previousNumber = Double(textField.text!)!
             if sender.tag == 12 {
-                textField.text! = "÷"
+                textField.text! = "÷"      
             }
             else if sender.tag == 13 {
                 textField.text! = "X"
